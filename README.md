@@ -1,4 +1,4 @@
-Move code from Controller to Model
+### Move code from Controller to Model
 
 * Move finder to named-scope (rails2 only)
 * Use model association
@@ -8,14 +8,14 @@ Move code from Controller to Model
 * Move model logic into the Model
 * Check return value of “save!”
 
-RESTful Conventions
+### RESTful Conventions
 
 * Overuse route customizations
 * Needless deep nesting
 * Not use default route
 * Restrict auto-generated routes
 
-Model
+### Model
 
 * Keep finders on their own model (rails2 only)
 * The law of demeter
@@ -24,28 +24,28 @@ Model
 * Remove unused methods in models
 * Protect mass assignment
 
-Mailer
+### Mailer
 
 * Use multipart/alternative as content-type of email
 
-Migration
+### Migration
 
 * Isolating seed data
 * Always add database index
 * Use say with time in migrations
 
-Controller
+### Controller
 
 * Use before-filter (disabled by default)
 * Simplify render in controllers
 * Remove unused methods in controllers
 
-Helper
+### Helper
 
 * Remove empty helpers
 * Remove unused methods in helpers
 
-View
+### View
 
 * Move code into controller
 * Move code into model
@@ -54,12 +54,12 @@ View
 * Simplify render in views
 * Not use time-ago-in-words
 
-Deployment
+### Deployment
 
 * Dry bundler in Capistrano
 * Speed up assets precompilation with turbo-sprockets-rails3
 
-Other
+### Other
 
 * Remove trailing whitespace
 * Remove tab (disabled by default)
